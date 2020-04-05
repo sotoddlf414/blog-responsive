@@ -86,7 +86,9 @@ a {
     .header-nav .menu {
       float: right;
       font-size: 22px; }
-      .header-nav .menu a {
+      .header-nav .menu .nav-menu-pc {
+        display: none; }
+      .header-nav .menu .nav-menu-phone {
         display: block;
         padding: 1px 5px;
         color: #ffffff; }
@@ -339,6 +341,329 @@ a {
         margin-right: 2px; }
     #footer .copyright {
       text-align: center; }
+      #footer .copyright span {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000000; } }
+@media only screen and (min-width: 421px) {
+  .container {
+    width: 1124px;
+    margin: 0 auto; }
+
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both; }
+
+  .header-nav {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 62px;
+    background-color: rgba(0, 0, 0, 0.4); }
+    .header-nav .container {
+      padding-top: 20px; }
+    .header-nav .logo {
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #ffffff;
+      float: left; }
+      .header-nav .logo a {
+        color: #ffffff; }
+    .header-nav .menu {
+      float: right;
+      font-size: 22px; }
+      .header-nav .menu .nav-menu-pc {
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+        display: inline-block;
+        padding: 3px 5px;
+        margin-right: 3px; }
+      .header-nav .menu .nav-menu-phone {
+        display: block;
+        padding: 1px 5px;
+        color: #ffffff;
+        display: none; }
+
+  .header-content {
+    width: 100%;
+    padding-top: 174px;
+    padding-bottom: 74px;
+    background-image: url("../images/Rectangle_2020-03-27/Rectangle.png");
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .header-content h1 {
+      font-family: Roboto;
+      font-size: 53.2px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      margin-bottom: 9px;
+      color: #ffffff;
+      width: 530px; }
+    .header-content p {
+      font-family: Roboto;
+      font-size: 18.2px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      margin-bottom: 42px;
+      width: 549px;
+      color: #ffffff; }
+    .header-content a {
+      width: 179px;
+      height: 54px;
+      border-radius: 3px;
+      box-shadow: 0 2px 2px 0 rgba(244, 67, 54, 0.14);
+      background-color: #f44336;
+      line-height: 54px;
+      text-align: center;
+      display: block;
+      color: #ffffff; }
+
+  #main {
+    width: 1380px;
+    border-radius: 6px;
+    box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.14), 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    margin: -50px auto 0;
+    padding-top: 94px; }
+    #main .talk-product {
+      text-align: center;
+      margin-bottom: 162px;
+      padding: 0 2px; }
+      #main .talk-product h1 {
+        font-family: Roboto;
+        font-size: 36.4px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #3c4858;
+        margin-bottom: 38px; }
+      #main .talk-product p {
+        font-family: Roboto;
+        font-size: 17.5px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 26px;
+        letter-spacing: normal;
+        color: #999999;
+        width: 758px;
+        margin: 0 auto; }
+    #main .feature {
+      text-align: center;
+      margin-bottom: 207px; }
+      #main .feature .feature-box {
+        float: left;
+        width: 33.33%; }
+        #main .feature .feature-box img {
+          margin-bottom: 31px; }
+        #main .feature .feature-box h2 {
+          font-family: Roboto;
+          font-size: 20px;
+          font-weight: 500;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #3c4858;
+          margin-bottom: 18px; }
+        #main .feature .feature-box p {
+          font-family: Roboto;
+          font-size: 14px;
+          font-weight: 300;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #999999;
+          width: 303px;
+          margin: 0 auto; }
+    #main .our-team {
+      text-align: center;
+      margin-bottom: 180px; }
+      #main .our-team h1 {
+        font-family: Roboto;
+        font-size: 36.4px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #3c4858;
+        margin-bottom: 86px; }
+      #main .our-team .profile-box {
+        width: 33.33%;
+        float: left; }
+        #main .our-team .profile-box img {
+          margin-bottom: 22px; }
+        #main .our-team .profile-box .profile-name {
+          font-family: Roboto;
+          font-size: 18.2px;
+          font-weight: 500;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #3c4858;
+          margin-bottom: 7px; }
+        #main .our-team .profile-box .work-role {
+          font-family: Roboto;
+          font-family: Roboto;
+          font-size: 13.6px;
+          font-weight: 500;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #777777;
+          margin-bottom: 34px; }
+        #main .our-team .profile-box .profile-text {
+          font-family: Roboto;
+          font-size: 14px;
+          font-weight: 300;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #999999;
+          width: 312px;
+          margin: 0 auto 15px; }
+        #main .our-team .profile-box .profile-link a {
+          display: inline-block;
+          padding: 5px;
+          margin: 0 3px;
+          font-size: 18px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #999999; }
+    #main .work-us {
+      padding-bottom: 79px;
+      text-align: center;
+      width: 755px;
+      margin: 0 auto; }
+      #main .work-us h1 {
+        font-family: Roboto;
+        font-size: 36.4px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #3c4858;
+        margin-bottom: 37px; }
+      #main .work-us p {
+        font-family: Roboto;
+        font-size: 18.2px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #999999;
+        margin-bottom: 47px; }
+      #main .work-us form .your-name {
+        width: 100%;
+        margin-bottom: 52px; }
+        #main .work-us form .your-name #name {
+          border: none;
+          border-bottom: 1px solid #d2d2d2;
+          width: 48%;
+          float: right; }
+        #main .work-us form .your-name #name:focus {
+          outline: none; }
+      #main .work-us form .your-email {
+        width: 48%;
+        float: left;
+        margin-bottom: 52px; }
+        #main .work-us form .your-email #mail {
+          border: none;
+          border-bottom: 1px solid #d2d2d2;
+          width: 100%; }
+        #main .work-us form .your-email #mail:focus {
+          outline: none; }
+      #main .work-us form .your-message {
+        width: 100%;
+        margin-bottom: 22px; }
+        #main .work-us form .your-message #message {
+          border: none;
+          border-bottom: 1px solid #d2d2d2;
+          width: 100%;
+          height: 62px;
+          resize: none; }
+        #main .work-us form .your-message #message:focus {
+          outline: none; }
+      #main .work-us form #button {
+        width: 148px;
+        height: 41px;
+        border-radius: 3px;
+        box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.2);
+        background-color: #9c27b0;
+        text-align: center;
+        line-height: 41px; }
+        #main .work-us form #button span {
+          width: 88px;
+          height: 15px;
+          font-family: Roboto;
+          font-size: 12px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #ffffff; }
+
+  #footer {
+    width: 1100px;
+    height: 40px;
+    padding: 20px 0px;
+    margin: 0 auto; }
+    #footer .footer-nav {
+      margin-bottom: 20px;
+      float: left; }
+      #footer .footer-nav a {
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #333333;
+        display: inline-block;
+        padding: 8px;
+        margin-right: 2px; }
+    #footer .copyright {
+      text-align: center;
+      float: right; }
       #footer .copyright span {
         font-family: Roboto;
         font-size: 14px;
