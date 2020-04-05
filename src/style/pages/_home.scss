@@ -6,23 +6,23 @@
 }
 
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 420px) {
 
-  .wrap{
-    background-color: #cccccc;
+      .wrap{
+        background-color: #cccccc;
 
-  }
+      }
 
-  .container {
-    width: 330px;
-    margin: 0 auto;
-  }
+      .container {
+        width: 330px;
+        margin: 0 auto;
+      }
 
-  .clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-  }
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
 
   .header-nav {
     position: fixed;
@@ -38,26 +38,31 @@
     }
 
 
-    .logo {
-      font-family: Roboto;
-      font-size: 18px;
-      font-weight: 300;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      color: #ffffff;
-      float: left;
-    }
+                      .logo {
+                        font-family: Roboto;
+                        font-size: 18px;
+                        font-weight: 300;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        color: #ffffff;
+                        float: left;
 
-    .menu {
-      float: right;
-      font-size: 22px;
+                                    a{
+                                      color: #ffffff;
+                                    }
+                      }
 
-      a {
-        display: block;
-        padding: 1px 5px;
-      }
+                        .menu {
+                          float: right;
+                          font-size: 22px;
+
+                                                  a {
+                                                    display: block;
+                                                    padding: 1px 5px;
+                                                    color: #ffffff;
+                                                  }
     }
   }
 
@@ -65,23 +70,21 @@
   width : 100%;
   padding-top: 174px;
   padding-bottom: 74px;
-  background-image: url("../../images/Rectangle_2020-03-27/Rectangle.png");
+  background-image: url("../images/Rectangle_2020-03-27/Rectangle.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: aqua;
-
 
 
   h1{
     font-family: Roboto;
-    font-size: 53.2px;
+    font-size: 50px;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
     margin-bottom: 9px;
-    //color: #ffffff;
+    color: #ffffff;
   }
 
   p{
@@ -94,7 +97,7 @@
     letter-spacing: normal;
     margin-bottom: 42px;
     width : 320px;
-    //color: #ffffff;
+    color: #ffffff;
   }
 
     a{
@@ -115,7 +118,7 @@
 
 //-main----------------------------------------------------------------------
 #main{
-  width: 335px;
+  width: 370px;
   border-radius: 6px;
   box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.14), 0 8px 10px 0 rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
@@ -401,7 +404,7 @@
   #footer{
     width : 100%;
     height : 80px;
-    padding: 20px 10px;
+    padding: 20px 0px;
     //background-color: #f44336;
 
 
