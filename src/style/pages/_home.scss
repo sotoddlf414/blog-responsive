@@ -58,6 +58,29 @@
       float: right;
       font-size: 22px;
 
+      #menu-phone{
+       position : fixed;
+        top : 65px;
+        width : 130px;
+        left : 270px;
+        display: none;
+      }
+
+      #menu-phone > ul{
+        background-color: rgba( 183, 173, 173, 0.8);
+        font-size : 17px;
+        font-family: Roboto;
+        text-align: left;
+      }
+
+      #menu-phone > ul li{
+        color : black;
+        margin-bottom: 10px;
+        padding : 3px;
+
+        display: inline-block;
+      }
+
       .nav-menu-pc{
         display: none;
       }
@@ -521,7 +544,7 @@
       }
 
 
-      .nav-menu-phone {
+     #menu-phone, .nav-menu-phone {
         display: block;
         padding: 1px 5px;
         color: #ffffff;

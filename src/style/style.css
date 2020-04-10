@@ -86,6 +86,22 @@ a {
     .header-nav .menu {
       float: right;
       font-size: 22px; }
+      .header-nav .menu #menu-phone {
+        position: fixed;
+        top: 65px;
+        width: 130px;
+        left: 270px;
+        display: none; }
+      .header-nav .menu #menu-phone > ul {
+        background-color: rgba(183, 173, 173, 0.8);
+        font-size: 17px;
+        font-family: Roboto;
+        text-align: left; }
+      .header-nav .menu #menu-phone > ul li {
+        color: black;
+        margin-bottom: 10px;
+        padding: 3px;
+        display: inline-block; }
       .header-nav .menu .nav-menu-pc {
         display: none; }
       .header-nav .menu .nav-menu-phone {
@@ -397,7 +413,7 @@ a {
         display: inline-block;
         padding: 3px 5px;
         margin-right: 3px; }
-      .header-nav .menu .nav-menu-phone {
+      .header-nav .menu #menu-phone, .header-nav .menu .nav-menu-phone {
         display: block;
         padding: 1px 5px;
         color: #ffffff;

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="456a6b50-4446-4cf7-a940-5ed9384025e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blog-scss.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog-scss.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/.sass-cache/7ac6190b6ad42950d75b7b4b0685e3781370b1b4/_home.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/.sass-cache/7ac6190b6ad42950d75b7b4b0685e3781370b1b4/_home.scssc" afterDir="false" />
@@ -13,6 +15,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,7 +53,10 @@
       <workItem from="1586064582910" duration="16839000" />
       <workItem from="1586083908622" duration="2193000" />
       <workItem from="1586089588209" duration="1121000" />
-      <workItem from="1586090852729" duration="6255000" />
+      <workItem from="1586090852729" duration="6548000" />
+      <workItem from="1586355740038" duration="4089000" />
+      <workItem from="1586450107865" duration="5107000" />
+      <workItem from="1586498979829" duration="2455000" />
     </task>
     <servers />
   </component>
